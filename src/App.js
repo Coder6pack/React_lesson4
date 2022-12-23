@@ -5,7 +5,7 @@ import { products } from "./data/datalist";
 
 function App() {
   return (
-    <div>
+    <div style={{ colorBackgroud: "pink" }}>
       {products.map((item, idx, arr) => (
         <Container
           title={item.name}
